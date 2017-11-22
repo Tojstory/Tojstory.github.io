@@ -1,0 +1,479 @@
+body {
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    z-index: -2;
+}
+
+header {
+    width: 99%;
+    height: auto;
+    position: fixed;
+    background-color: white;
+    margin: -8px -12px -0px -7px;
+    z-index: 3;
+    border-bottom: solid 1px lightgrey;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #BB7A7A;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+}
+
+.topnav {
+    display: table;
+    margin: auto;
+}
+
+.topnav .icon {
+    display: none;
+    float: right;
+}
+
+header hr {
+    border: solid thin black;
+    width: 100%;
+    margin: 0;
+}
+
+#page1 {
+    display: block;
+}
+
+.page2 p {
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+    width: 60%;
+    margin: auto;
+    font-family: 'Bad Script', cursive;
+}
+
+.page2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+article {
+    display: flex;
+}
+
+#nr1 {
+    flex: 1;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#nr2 {
+    flex: 1;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 100px;
+    color: dimgray;
+}
+
+body hr {
+    border: solid thin black;
+    width: 80%;
+    margin: auto;
+
+}
+
+h1 {
+    color: #BB7A7A;
+}
+
+#page4 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.billede {
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: 1px black solid;
+    margin-bottom: 100px;
+}
+
+#page7 h1 {
+    text-align: center;
+}
+
+#page7 img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-bottom: 60px;
+}
+
+#page9 {
+    z-index: -1;
+    border: thin black solid;
+}
+
+.container {
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+}
+
+.aarhus {
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.aalborg {
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.aabningstider {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+
+#page11 {
+    color: dimgray;
+}
+
+#page11 h1 {
+    font-size: 40px;
+    color: dimgray;
+}
+
+#top {
+    width: 5%;
+    height: auto;
+    margin: auto;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    float: right;
+    z-index: 2;
+}
+
+#flex-indlevering {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+#flex-indlevering div {
+    flex: 1;
+    height: auto;
+    width: 70%;
+    margin: 30px;
+
+}
+
+#flex-indlevering img {
+    width: 70%;
+}
+
+footer hr {
+    border: solid thin black;
+    width: 100%;
+    margin: 0;
+}
+
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    width: 15%;
+}
+
+footer i {
+    margin: 10px;
+    display: block;
+    float: right;
+}
+
+footer a {
+    color: black;
+}
+
+#footertext {
+    font-weight: bold;
+}
+
+#footerimg {
+    width: 483px;
+    ;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+#footerimg img {
+    width: 117px;
+    height: 156px;
+    filter: grayscale(100%);
+    align-items: center;
+
+}
+
+
+
+
+
+/*Tablet*/
+
+@media screen and (max-width: 1023px) {
+
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #br-hide {
+        display: none;
+    }
+
+    .page2 p {
+        font-size: 30px;
+    }
+
+    #gone {
+        display: none;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    #nr1 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .page2 {
+        margin-bottom: 40px;
+    }
+
+    #top {
+        width: 10%;
+    }
+
+    #flex-indlevering {
+        width: 100%;
+        margin-top: 50px;
+    }
+    #flex-indlevering div {
+        width: 85%;
+        margin: 10px;
+    }
+
+    #flex-indlevering img {
+        width: 90%;
+    }
+
+
+    #logo {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu-container {
+        display: flex;
+
+    }
+
+    .menu1,
+    .menu2,
+    .menu3 {
+        flex: 1;
+    }
+
+    .topnav {
+        float: right;
+    }
+
+
+
+
+    #page10 .billede {
+        margin-bottom: 30px;
+    }
+}
+
+    /*Telefon*/
+    @media screen and (max-width: 719px) {
+
+
+
+
+        .page2 p {
+            font-size: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 10px 10px 15px 10px;
+            font-size: 10px;
+        }
+
+        #page4 article {
+            font-size: 17px;
+        }
+
+        #nr1 {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+
+        #page4 {
+            width: 95%;
+        }
+
+
+        .container1 {
+            flex-direction: column;
+            margin-bottom: 0px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .page2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .billede {
+            margin-bottom: 20px;
+        }
+
+        .page2 br {
+            display: none;
+        }
+
+        #page4 h1 {
+            font-size: 20px;
+        }
+
+        #page4 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            flex-direction: column;
+            font-size: 20px;
+
+        }
+
+        .aabningstider h2 {
+            font-size: 20px;
+
+        }
+        .aabningstider p {
+            font-size: 15px;
+        }
+
+        body hr {
+            border: black 1px solid;
+        }
+
+
+        #page10 img {
+            margin-bottom: 20px;
+        }
+
+        #footerimg {
+            width: 300px;
+        }
+
+        #footerimg img {
+            width: 71px;
+            height: 90px;
+        }
+
+        #flex-indlevering {
+            width: 100%;
+            margin-top: 50px;
+            flex-direction: column;
+        }
+        #flex-indlevering div {
+            width: 85%;
+            margin: auto;
+        }
+
+        #flex-indlevering img {
+            width: 60%;
+        }
+
+        #page7 h1 {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        #page9 {
+            margin: 20px;
+        }
+
+        #page11 h1 {
+            font-size: 20px;
+        }
+
+
+        #logo {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
